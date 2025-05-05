@@ -1,10 +1,15 @@
 // components/SocialIcons.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin,Facebook, Mail, Phone } from 'lucide-react';
+import { Github, Linkedin, Facebook, Mail, ArrowUp } from 'lucide-react';
 import '../styles/SocialIcons.css';
 
 const SocialIcons = () => {
+  // Scroll to top handler
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="social-icons">
       <div className="icons">
@@ -20,10 +25,13 @@ const SocialIcons = () => {
         <a href="mailto:mihirishanika57@gmail.com" className="icon">
           <Mail size={24} />
         </a>
-        <a href="tel:+94760915119" className="icon">
-          <Phone size={24} />
-        </a>
       </div>
+
+      {/* Back to Top button */}
+      <button className="back-to-top" onClick={scrollToTop}>
+        <ArrowUp size={20} />
+        <span>Back to Top</span>
+      </button>
     </div>
   );
 };

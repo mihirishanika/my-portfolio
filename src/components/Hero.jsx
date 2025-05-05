@@ -1,31 +1,60 @@
-// components/Hero.jsx
 import React from 'react';
 import '../styles/Hero.css';
-import heroImage from '../images/profile.jpg';
-import heroBackgroundImage from '../images/profile.jpg';
+import profileImage from '../images/propic.png';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
-  const heroStyle = {
-    backgroundImage: `url(${heroBackgroundImage})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'contain'
-  };
-
   return (
-    <section className="hero">
-      <div className="yellow-bg"></div>
-      <div className="hero-image" style={heroStyle}></div>
-      <div className="intro">
-        <div className="role">Computer Engineering Undergraduate at University of Jaffna</div>
-        <div className="content">
-          <h1 className="title">Hello, my name is Mihiri Shanika</h1>
-          <p className="subtitle">a strong passion for technology, including blockchain, 
-            artificial intelligence (AI), and machine learning (ML). With a background in 
-            software development and hands-on experience in both front-end and back-end technologies, 
-            I thrive in collaborative environments and enjoy solving complex problems. 
-            I am always eager to take on new challenges and contribute to innovative projects.</p>
-          <div className="buttons">
-            <img src={heroImage} alt="Hero" />
+    <section id="home" className="hero">
+      <div className="hero-container">
+        {/* Left side - Text content */}
+        <div className="hero-content">
+          <div className="role">
+            Computer Engineering Undergraduate at 
+            University of Jaffna
+          </div>
+          <h1 className="title">Hello, I'm Mihiri Shanika</h1>
+          <p className="subtitle">
+          I'm an enthusiastic and driven undergraduate currently pursuing a 
+          BSc. Engineering (Hons) degree in Computer Engineering at the Faculty of Engineering, 
+          University of Jaffna. Originally from Ratnapura, I completed my secondary education 
+          at Gamini Central College, specializing in the Physical Science stream for my Advanced Level studies.
+          </p><p className="subtitle">
+          My interests lie at the intersection of cutting-edge technologies such as Blockchain, 
+          Artificial Intelligence (AI), Machine Learning (ML), Software Development, and DevOps. 
+          I am passionate about developing innovative solutions and continuously seek opportunities 
+          to expand my knowledge and skill set.Beyond academics, I actively volunteer with IEEE, 
+          where I collaborate with peers on impactful, tech-driven initiatives. 
+          </p><p className="subtitle">
+          Outside of my technical pursuits, I enjoy gaming, traveling, watching TV series and reading novels.
+          I’m always eager to embrace new challenges, explore emerging technologies 
+          and contribute to meaningful projects that make a real-world impact.
+          </p>
+
+          <div className="social-icons_">
+            <a
+              href="https://github.com/mihirishanika"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <FaGithub className="social-icon" />
+            </a>
+            <a
+              href="https://linkedin.com/in/mihirishanika"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <FaLinkedin className="social-icon" />
+            </a>
+          </div>
+        </div>
+
+        {/* Right side - Profile image */}
+        <div className="hero-image-container">
+          <div className="image-frame">
+            <img src={profileImage} alt="Mihiri Shanika" className="profile-image" />
           </div>
         </div>
       </div>

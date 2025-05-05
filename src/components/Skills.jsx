@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Projects.css';
+import '../styles/Skills.css';
 
 // Font Awesome icons
 import { FaHtml5, FaCss3Alt, FaUnity, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
@@ -37,7 +37,7 @@ function Skills() {
 
   const skillCategories = [
     {
-      title: "USING NOW:",
+      title: "Using now:",
       skills: [
         { icon: <FaHtml5 />, name: "HTML5" },
         { icon: <FaCss3Alt />, name: "CSS3" },
@@ -50,7 +50,7 @@ function Skills() {
       ]
     },
     {
-      title: "LEARNING:",
+      title: "Learning:",
       skills: [
         { icon: <SiWeb3Dotjs />, name: "Web3.js" },
         { icon: <SiTypescript />, name: "TypeScript" },
@@ -59,7 +59,7 @@ function Skills() {
       ]
     },
     {
-      title: "OTHER SKILLS:",
+      title: "Other Skills:",
       skills: [
         { icon: <SiCplusplus />, name: "C++" },
         { icon: <FaFigma />, name: "Figma" }
@@ -71,7 +71,7 @@ function Skills() {
     <section className="skills" id="skills">
       <div className="container">
         <div className="section-header-box">
-          <h2 className="section-title">SKILLS</h2>
+          <h2 className="section-title">Skills</h2>
         </div>
         <div className="skills-container">
           {skillCategories.map((category, index) => (

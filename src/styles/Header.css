@@ -5,7 +5,8 @@
     right: 0;
     top: 0;
     z-index: 100;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(240, 233, 152, 0.95);
+    font-family: 'Poppins', sans-serif;
   }
   
   .logo {
