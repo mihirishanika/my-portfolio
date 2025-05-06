@@ -87,6 +87,16 @@
   font-size: 16px;
   resize: none;
 }
+.btn-primary {
+  background-color:  rgba(240, 233, 152, 0.95); /* Bootstrap blue */
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 
 @media (max-width: 768px) {
   .contact-container {
