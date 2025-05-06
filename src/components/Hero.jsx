@@ -10,8 +10,7 @@ const Hero = () => {
         {/* Left side - Text content */}
         <div className="hero-content">
           <div className="role">
-            Computer Engineering Undergraduate at 
-            University of Jaffna
+            Computer Engineering Undergraduate at<br/> University of Jaffna
           </div>
           <h1 className="title">Hello, I'm Mihiri Shanika</h1>
           <p className="subtitle">

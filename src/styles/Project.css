@@ -63,8 +63,14 @@
     text-decoration: none;
     background: transparent;
     cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
   }
   
+.project-button:hover {
+  transform: scale(1.15); 
+  background-color: #25282B;
+  color: white;
+}
   .project-image {
     width: 496px;
     height: 524px;

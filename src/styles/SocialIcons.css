@@ -11,7 +11,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 .icons {
   display: flex;
   flex-direction: row;
@@ -32,11 +31,12 @@
   justify-content: center;
   color: white;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition:transform 0.3s ease;
 }
 
 .icon:hover {
   background: #333333;
+  transform: scale(1.1); 
 }
 
 .back-to-top {

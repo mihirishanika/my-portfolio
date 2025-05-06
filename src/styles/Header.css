@@ -43,6 +43,11 @@
     line-height: 28px;
     color: #25282B;
     text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    transform: scale(1.1); 
   }
   
   .nav-item.active {
