@@ -1,6 +1,6 @@
 // components/SocialIcons.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+// Removed unused Link import
 import { Github, Linkedin, Facebook, Mail, ArrowUp } from 'lucide-react';
 import '../styles/SocialIcons.css';
 
@@ -28,7 +28,7 @@ const SocialIcons = () => {
       </div>
 
       {/* Back to Top button */}
-      <button className="back-to-top" onClick={scrollToTop}>
+      <button className="back-to-top" onClick={scrollToTop} aria-label="Scroll to top">
         <ArrowUp size={20} />
         <span>Back to Top</span>
       </button>
