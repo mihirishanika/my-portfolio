@@ -19,8 +19,8 @@ const Hero = () => {
           University of Jaffna. Originally from Ratnapura, I completed my secondary education 
           at Gamini Central College, specializing in the Physical Science stream for my Advanced Level studies.
           </p><p className="subtitle">
-          My interests lie at the intersection of cutting-edge technologies such as Blockchain, 
-          Artificial Intelligence (AI), Machine Learning (ML), Software Development, and DevOps. 
+          My interests lie at the intersection of cutting-edge technologies such as DevOps, Cloud Compuring, Blockchain, 
+          Artificial Intelligence (AI), Machine Learning (ML) and Software Development. 
           I am passionate about developing innovative solutions and continuously seek opportunities 
           to expand my knowledge and skill set.Beyond academics, I actively volunteer with IEEE, 
           where I collaborate with peers on impactful, tech-driven initiatives. 

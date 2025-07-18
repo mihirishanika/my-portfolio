@@ -13,7 +13,9 @@ import {
   SiTypescript,
   SiDocker,
   SiTensorflow,
-  SiCplusplus
+  SiCplusplus,
+  SiKubernetes,
+  SiJenkins
 } from 'react-icons/si';
 
 function Skills() {
@@ -39,22 +41,24 @@ function Skills() {
     {
       title: "Using now:",
       skills: [
-        { icon: <FaHtml5 />, name: "HTML5" },
-        { icon: <FaCss3Alt />, name: "CSS3" },
-        { icon: <FaUnity />, name: "Unity" },
+        { icon: <SiDocker />, name: "Docker" },
+        { icon: <SiKubernetes />, name: "Kubernetes" },
+        { icon: <SiJenkins />, name: "Jenkins" },
         { icon: <FaReact />, name: "React" },
         { icon: <SiSolidity />, name: "Solidity" },
         { icon: <FaGitAlt />, name: "Git" },
         { icon: <SiC />, name: "C" },
-        { icon: <SiJavascript />, name: "JavaScript" }
+        { icon: <SiJavascript />, name: "JavaScript" },
+        { icon: <FaHtml5 />, name: "HTML5" },
+        { icon: <FaCss3Alt />, name: "CSS3" },
       ]
     },
     {
       title: "Learning:",
       skills: [
+        { icon: <FaUnity />, name: "Unity" },
         { icon: <SiWeb3Dotjs />, name: "Web3.js" },
         { icon: <SiTypescript />, name: "TypeScript" },
-        { icon: <SiDocker />, name: "Docker" },
         { icon: <SiTensorflow />, name: "TensorFlow" }
       ]
     },
