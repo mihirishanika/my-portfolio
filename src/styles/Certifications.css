@@ -1,0 +1,78 @@
+.certification-container {
+  padding: 3rem;
+  text-align: center;
+}
+
+.certification-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 👈 4 per row */
+  gap: 20px;
+}
+
+.cert-card {
+  background: #f6fac0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cert-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cert-info {
+  padding: 1rem;
+}
+
+.cert-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.cert-info p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.cert-info span {
+  font-weight: bold;
+  color: #333;
+}
+
+.see-more-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.see-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f6fac0; /* LinkedIn blue */
+  color: rgb(21, 21, 21);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0.1,0.1,0.1,0.1);
+}
+
+.see-more-btn:hover {
+  background-color:#f8fe9d;
+}

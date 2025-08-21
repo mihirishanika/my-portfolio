@@ -1,11 +1,11 @@
 
 .skills {
   background-color: #f2f3e8;
-  padding: 60px 20px;
+  padding: 100px;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -16,23 +16,11 @@
 }
 
 .skills .section-title {
-  font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 700;
   color: #252525;
   position: relative;
   display: inline-block;
-}
-
-.skills .section-title::after {
-  content: '';
-  position: absolute;
-  width: 50%;
-  height: 3px;
-  background-color: rgba(240, 233, 152, 0.95);
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .skills-container {
@@ -46,7 +34,7 @@
 }
 
 .category-title {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 700;
   color: #252525;
   margin-bottom: 24px;
@@ -67,13 +55,13 @@
 }
 
 .skill-icon {
-  font-size: 40px;
+  font-size: 100px;
   margin-bottom: 8px;
   /* Brand colors set inline in the component */
 }
 
 .skill-name {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 500;
   color: #252525;
   margin: 0;

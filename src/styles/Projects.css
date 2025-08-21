@@ -1,58 +1,86 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    gap: 80px;
-    position: relative;
-    width: 992px;
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-family: 'Poppins', sans-serif;
+  padding: 100px;
+  background-color: #f2f3e8; /* light background for contrast */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 20px;
+}
+.projects {
+  padding: 40px;
+  text-align: center; /* centers section titles */
+}
+
+.section-title {
+  margin-bottom: 30px; /* space below "Projects" */
+}
+
+.section-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects-subtitle {
+  font-size: 32px;
+  margin: 50px 0 25px; /* 🔥 adds space above & below */
+  font-weight: 600;
+  text-align: center;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.project-image {
+  width: 100%;
+  height: 400px; 
+  object-fit: cover; /* ensures the image covers the box nicely */
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.overlay h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.overlay p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .section-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    gap: 4px;
-    width: 181px;
-    height: 80px;
-    margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
-  
-  .section-title h2 {
-    width: 181px;
-    height: 72px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 72px;
-    text-align: center;
-    color: #25282B;
-  }
-  .projects-subtitle {
-    font-size: 24px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #25282B;
-  }
-  
-  .section-title-line {
-    width: 100px;
-    height: 4px;
-    background:  rgba(240, 233, 152, 0.95);
-    border-radius: 2px;
-  }
-  
-  @media (max-width: 1200px) {
-    .projects {
-      width: 90%;
-    }
-  }
-  
+}

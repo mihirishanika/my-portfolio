@@ -1,5 +1,4 @@
 import React from 'react';
-import Project from './Project';
 import '../styles/Projects.css';
 
 const Projects = () => {
@@ -50,11 +49,11 @@ const Projects = () => {
 
   const ongoingProjects = [
     {
-      id: 6,
+      id: 7,
       title: "Blockchain-Based Electronic Voting System",
       description: "This project proposes a secure, transparent, and scalable Blockchain-Based Electronic Voting System...",
       imageUrl: require("../images/e_voting.png"),
-      link: "https://github.com/mihirishanika/blockchain-based-E-voting-system.gits"
+      link: "https://github.com/mihirishanika/blockchain-based-E-voting-system.git"
     }
   ];
 
@@ -65,29 +64,37 @@ const Projects = () => {
         <div className="section-title-line"></div>
       </div>
 
+      {/* Completed */}
       <h3 className="projects-subtitle">✅ Completed Projects</h3>
-      {projectsData.map((project, index) => (
-        <Project 
-          key={project.id}
-          title={project.title}
-          description={project.description}
-          imageUrl={project.imageUrl}
-          link={project.link}
-          reverse={index % 2 !== 0}
-        />
-      ))}
+      <div className="projects-grid">
+        {projectsData.map((project) => (
+          <div key={project.id} className="project-card">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img src={project.imageUrl} alt={project.title} className="project-image" />
+              <div className="overlay">
+                <h4>{project.title}</h4>
+                <p>{project.description}</p>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
 
+      {/* Ongoing */}
       <h3 className="projects-subtitle">🚧 Ongoing Projects</h3>
-      {ongoingProjects.map((project, index) => (
-        <Project 
-          key={project.id}
-          title={project.title}
-          description={project.description}
-          imageUrl={project.imageUrl}
-          link={project.link}
-          reverse={index % 2 !== 0}
-        />
-      ))}
+      <div className="projects-grid">
+        {ongoingProjects.map((project) => (
+          <div key={project.id} className="project-card">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img src={project.imageUrl} alt={project.title} className="project-image" />
+              <div className="overlay">
+                <h4>{project.title}</h4>
+                <p>{project.description}</p>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

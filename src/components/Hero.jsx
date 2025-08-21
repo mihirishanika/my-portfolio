@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Hero.css';
 import profileImage from '../images/propic.png';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiCredly } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -12,7 +13,8 @@ const Hero = () => {
           <div className="role">
             Computer Engineering Undergraduate at<br/> University of Jaffna
           </div>
-          <h1 className="title">Hello, I'm Mihiri Shanika</h1>
+          <h1 className="title2">Hello I'm</h1>
+          <h1 className="title">Mihiri Shanika</h1>
           <p className="subtitle">
           I'm an enthusiastic and driven undergraduate currently pursuing a 
           BSc. Engineering (Hons) degree in Computer Engineering at the Faculty of Engineering, 
@@ -46,6 +48,14 @@ const Hero = () => {
               className="social-link"
             >
               <FaLinkedin className="social-icon" />
+            </a>
+            <a
+              href="https://www.credly.com/users/mihiri-shanika"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <SiCredly className="social-icon" />
             </a>
           </div>
         </div>

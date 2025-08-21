@@ -26,11 +26,11 @@
   nav {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 0;
-    gap: 48px;
+    align-items: flex-start;
+    gap: 38px;
     position: absolute;
-    width: 291px;
+    width: 430px;
     height: 32px;
     right: 120px;
     top: 14px;
@@ -71,7 +71,7 @@
     }
     
     nav {
-      right: 20px;
+      right: 12px;
       gap: 20px;
     }
   }
