@@ -55,7 +55,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="social-link"
             >
-              <SiCredly className="social-icon" />
+              <SiCredly className="social-icon_credly" />
             </a>
           </div>
         </div>

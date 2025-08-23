@@ -2,71 +2,91 @@ import React from 'react';
 import '../styles/Skills.css';
 
 // Font Awesome icons
-import { FaHtml5, FaCss3Alt, FaUnity, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
-
-// Simple Icons
 import {
-  SiSolidity,
-  SiC,
-  SiJavascript,
-  SiWeb3Dotjs,
-  SiTypescript,
-  SiDocker,
-  SiTensorflow,
-  SiCplusplus,
-  SiKubernetes,
-  SiJenkins
-} from 'react-icons/si';
+    FaReact,
+    FaPython,
+    FaCodepen,
+    FaGitAlt,
+    FaTerminal // fallback for Bash
+} from "react-icons/fa";
+
+import {
+    SiDocker,
+    SiKubernetes,
+    SiTerraform,
+    SiAnsible,
+    SiGithubactions,
+    SiJenkins,
+    SiGnubash,
+    SiGit,
+    SiGrafana,
+    SiJavascript,
+    SiAmazonwebservices,
+    SiLinux
+} from "react-icons/si";
+
+import { IoInfiniteSharp } from "react-icons/io5";
+import { DiScrum } from "react-icons/di";
 
 function Skills() {
   // Define brand colors for each technology
   const iconColors = {
-    HTML5: "#E34F26",
-    CSS3: "#1572B6",
-    Unity: "#000000",
-    React: "#61DAFB",
-    Solidity: "#363636",
-    Git: "#F05032",
-    C: "#A8B9CC",
-    JavaScript: "#F7DF1E",
-    "Web3.js": "#F16822",
-    TypeScript: "#3178C6",
-    Docker: "#2496ED",
-    TensorFlow: "#FF6F00",
-    "C++": "#00599C",
-    Figma: "#F24E1E"
+        Docker: "#2496ED",               // SiDocker - Docker Blue
+        Kubernetes: "#326CE5",           // SiKubernetes - Kubernetes Blue
+        Terraform: "#623CE4",            // SiTerraform - Terraform Purple
+        Ansible: "#000000",              // SiAnsible - Ansible Black
+
+        AWS: "#FF9900",                  // AWS Orange
+        "GitHub Actions": "#2088FF",     // GitHub Blue
+        Jenkins: "#D24939",              // Jenkins Red/Brown
+        "Bash Scripting": "#4EAA25",     // Bash Green
+
+        Python: "#3776AB",               // Python Blue
+        Git: "#F05032",                  // Git Orange
+        "CI/CD": "#0A0A0A",              // Pipelines (black/gray)
+
+        Agile: "#6DB33F",                // Scrum/Agile Green
+        GitOps: "#F05032",               // Reuse Git Orange
+        Grafana: "#F46800",              // Grafana Orange
+        IaC: "#000000",                  // Infra as Code
+
+        React: "#61DAFB",
+        JavaScript: "#F7DF1E",
   };
 
   const skillCategories = [
     {
-      title: "Using now:",
+      title: "DevOps & Infrastructure:",
       skills: [
         { icon: <SiDocker />, name: "Docker" },
         { icon: <SiKubernetes />, name: "Kubernetes" },
+        { icon: <SiTerraform />, name: "Terraform" },
+        { icon: <IoInfiniteSharp />, name: "CI/CD" },
+        { icon: <FaCodepen />, name: "IaC" },
+        { icon: <SiAnsible />, name: "Ansible" },
+        { icon: <SiGrafana />, name: "Grafana" },
+        { icon: <DiScrum />, name: "Agile" }
+      ]
+    },
+    {
+      title: "Cloud & Automation:",
+      skills: [
+        { icon: <SiAmazonwebservices />, name: "AWS" },
         { icon: <SiJenkins />, name: "Jenkins" },
-        { icon: <FaReact />, name: "React" },
-        { icon: <SiSolidity />, name: "Solidity" },
+        { icon: <SiGithubactions />, name: "GitHub Actions" },
+        // Use SiGnubash if available, else FaTerminal
+        { icon: (typeof SiGnubash !== "undefined" ? <SiGnubash /> : <FaTerminal />), name: "Bash Scripting" }
+      ]
+    },
+    {
+      title: "Programming & Development:",
+      skills: [
+        { icon: <SiLinux />, name: "Linux" },
+        { icon: <FaPython />, name: "Python" },
         { icon: <FaGitAlt />, name: "Git" },
-        { icon: <SiC />, name: "C" },
-        { icon: <SiJavascript />, name: "JavaScript" },
-        { icon: <FaHtml5 />, name: "HTML5" },
-        { icon: <FaCss3Alt />, name: "CSS3" },
-      ]
-    },
-    {
-      title: "Learning:",
-      skills: [
-        { icon: <FaUnity />, name: "Unity" },
-        { icon: <SiWeb3Dotjs />, name: "Web3.js" },
-        { icon: <SiTypescript />, name: "TypeScript" },
-        { icon: <SiTensorflow />, name: "TensorFlow" }
-      ]
-    },
-    {
-      title: "Other Skills:",
-      skills: [
-        { icon: <SiCplusplus />, name: "C++" },
-        { icon: <FaFigma />, name: "Figma" }
+        { icon: <SiGit />, name: "GitOps" },
+        { icon: <FaReact />, name: "React" },
+        { icon: <SiJavascript />, name: "JavaScript" }
       ]
     }
   ];

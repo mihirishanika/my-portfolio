@@ -75,7 +75,12 @@
   transition: color 0.3s, transform 0.3s;
   cursor: pointer;
 }
-
+.social-icon_credly{
+  font-size: 3rem;
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
 /* Right side - Image with colored background */
 .hero-image-container {
   flex: 1;
