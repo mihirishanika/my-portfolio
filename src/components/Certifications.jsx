@@ -18,8 +18,17 @@ const certificates = [
     link: "https://coursera.org/share/d34654168f5e688fc35cbd135b2f676e",
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~7F4QNIXJ95VB/CERTIFICATE_LANDING_PAGE~7F4QNIXJ95VB.jpeg"
   },
+
   {
     id: 3,
+    title: "AWS Cloud Technical Essentials",
+    subtitle: "Course Certificate",
+    institution: "AWS",
+    link: "https://coursera.org/share/53be5cd81c6155660dfa36d5de10242f",
+    image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~7TMJ4R0PKTWK/CERTIFICATE_LANDING_PAGE~7TMJ4R0PKTWK.jpeg"
+  },
+  {
+    id: 4,
     title: "DevOps, Cloud, and Agile Foundations",
     subtitle: "Specialization Certificate",
     institution: "IBM",
@@ -27,7 +36,7 @@ const certificates = [
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~CAS4I22DJNXK/CERTIFICATE_LANDING_PAGE~CAS4I22DJNXK.jpeg"
   },
   {
-    id: 4,
+    id: 5,
     title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
     subtitle: "Course Certificate",
     institution: "IBM",
@@ -35,7 +44,7 @@ const certificates = [
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~FPHWUVOEV18G/CERTIFICATE_LANDING_PAGE~FPHWUVOEV18G.jpeg"
   },
   {
-    id: 5,
+    id: 6,
     title: "Continuous Integration and Continuous Delivery (CI/CD)",
     subtitle: "Course Certificate",
     institution: "IBM",
@@ -43,7 +52,7 @@ const certificates = [
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~M167R9ZZA29C/CERTIFICATE_LANDING_PAGE~M167R9ZZA29C.jpeg"
   },
   {
-    id: 6,
+    id: 7,
     title: "Introduction to Cloud Computing",
     subtitle: "Course Certificate",
     institution: "IBM",
@@ -51,20 +60,12 @@ const certificates = [
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~C4JTKB83W3EL/CERTIFICATE_LANDING_PAGE~C4JTKB83W3EL.jpeg"
   },
   {
-    id: 7,
+    id: 8,
     title: "Blockchain Basics",
     subtitle: "Course Certificate",
     institution: "University at Buffalo",
     link: "https://coursera.org/share/edceaf74c73b4f9c3c2869a8890bd9b8",
     image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~YOEIFGI088YD/CERTIFICATE_LANDING_PAGE~YOEIFGI088YD.jpeg"
-  },
-  {
-    id: 8,
-    title: "Advanced Learning Algorithms",
-    subtitle: "Course Certificate",
-    institution: "DeepLearning.AI",
-    link: "https://coursera.org/share/6a49423b54ec4d61e0e0b826ce551196",
-    image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3EN5K7FX8FUL/CERTIFICATE_LANDING_PAGE~3EN5K7FX8FUL.jpeg"
   }
 ];
 
