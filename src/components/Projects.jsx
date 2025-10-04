@@ -19,31 +19,31 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Bus Information Platform",
+      description: "This project is a User Based Bus Information Platform...",
+      imageUrl: require("../images/businformation.jpg"),
+      link: "https://github.com/mihirishanika/Bus-information-platform.git"
+    },
+    {
+      id: 4,
+      title: "Fully Functional Login and Signup Pages",
+      description: "SecureConnect is a secure and user-friendly authentication system...",
+      imageUrl: require("../images/login_signup.jpg"),
+      link: "https://github.com/mihirishanika/SpiritX_CripticHackers_01.git"
+    },
+    {
+      id: 5,
       title: "Embedded Public Transport Payment System",
       description: "This project is an Embedded System for Public Transportation (Train) Payments...",
       imageUrl: require("../images/rail_go.jpg"),
       link: "https://github.com/oshadapramod/SmartRailwayPayment.git"
     },
     {
-      id: 4,
+      id: 6,
       title: "Building an Image Caption Generator using CNN-LSTM from Scratch",
       description: "This project implements an Image Captioning System using deep learning...",
       imageUrl: require("../images/deep_learning.jpg"),
       link: "https://github.com/mihirishanika/Building-an-Image-Caption-Generator-using-CNN-LSTM-from-Scratch-_DeepLearningProject.git"
-    },
-    {
-      id: 5,
-      title: "Page Replacement Algorithms",
-      description: "This Java GUI application simulates and compares four popular Page Replacement Algorithms...",
-      imageUrl: require("../images/cpu_scheduling.png"),
-      link: "https://github.com/mihirishanika/Page-Replacement-Algorithms.git"
-    },
-    {
-      id: 6,
-      title: "Fully Functional Login and Signup Pages",
-      description: "SecureConnect is a secure and user-friendly authentication system...",
-      imageUrl: require("../images/login_signup.jpg"),
-      link: "https://github.com/mihirishanika/SpiritX_CripticHackers_01.git"
     }
   ];
 
