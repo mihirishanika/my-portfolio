@@ -20,7 +20,7 @@ const Projects = () => {
     {
       id: 3,
       title: "Bus Information Platform",
-      description: "This project is a User Based Bus Information Platform...",
+      description: "This project is a User Based Bus Information Platform using AWS S3, AWS DynamoDB, AWS Cognito, react.js and Node,js...",
       imageUrl: require("../images/businformation.jpg"),
       link: "https://github.com/mihirishanika/Bus-information-platform.git"
     },
