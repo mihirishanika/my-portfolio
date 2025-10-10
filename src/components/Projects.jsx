@@ -5,17 +5,17 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
+      title: "Food Cutting Game On AWS",
+      description: "This project implement using React, GitHub Actions,AWS ECR, AWS ECS, and AWS CloudWatch...",
+      imageUrl: require("../images/food.jpg"),
+      link: "https://github.com/mihirishanika/food_cutting.git"
+    },
+    {
+      id: 2,
       title: "DevOps Project using Jenkins & Docker on Ubuntu",
       description: "This project is a CI/CD pipeline that automates the process of building, testing and deploying applications...",
       imageUrl: require("../images/cicd.jpeg"),
       link: "https://www.linkedin.com/posts/mihirishanika_devops-cicd-docker-activity-7343904144006479873-LZBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdpPCMBSpXMmmxuSHTZXZhhnFEGTWaLurU"
-    },
-    {
-      id: 2,
-      title: "DevOps capstone project",
-      description: "This is the final project of IBM DevOps and Software Engineering Professional Certificate...",
-      imageUrl: require("../images/capstone.png"),
-      link: "https://github.com/mihirishanika/Building-an-Image-Caption-Generator-using-CNN-LSTM-from-Scratch-_DeepLearningProject.git"
     },
     {
       id: 3,
@@ -26,20 +26,27 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "DevOps capstone project",
+      description: "This is the final project of IBM DevOps and Software Engineering Professional Certificate...",
+      imageUrl: require("../images/capstone.png"),
+      link: "https://github.com/mihirishanika/Building-an-Image-Caption-Generator-using-CNN-LSTM-from-Scratch-_DeepLearningProject.git"
+    },
+    {
+      id: 5,
       title: "Fully Functional Login and Signup Pages",
       description: "SecureConnect is a secure and user-friendly authentication system...",
       imageUrl: require("../images/login_signup.jpg"),
       link: "https://github.com/mihirishanika/SpiritX_CripticHackers_01.git"
     },
     {
-      id: 5,
+      id: 6,
       title: "Embedded Public Transport Payment System",
       description: "This project is an Embedded System for Public Transportation (Train) Payments...",
       imageUrl: require("../images/rail_go.jpg"),
       link: "https://github.com/oshadapramod/SmartRailwayPayment.git"
     },
     {
-      id: 6,
+      id: 7,
       title: "Building an Image Caption Generator using CNN-LSTM from Scratch",
       description: "This project implements an Image Captioning System using deep learning...",
       imageUrl: require("../images/deep_learning.jpg"),
