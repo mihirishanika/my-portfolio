@@ -10,7 +10,7 @@
 
 .cert-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 👈 4 per row */
+  grid-template-columns: repeat(4, 1fr); /* 4 per row on desktop */
   gap: 20px;
 }
 
@@ -75,4 +75,17 @@
 
 .see-more-btn:hover {
   background-color:#f8fe9d;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: 1fr; /* 1 per row on mobile phones */
+  }
 }

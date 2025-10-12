@@ -6,14 +6,14 @@ const Projects = () => {
     {
       id: 1,
       title: "Food Cutting Game On AWS",
-      description: "This project implement using React, GitHub Actions,AWS ECR, AWS ECS, and AWS CloudWatch...",
+      description: "This project is a DevOps implementation using React, GitHub Actions, AWS ECR, AWS ECS, and AWS CloudWatch...",
       imageUrl: require("../images/food.jpg"),
       link: "https://github.com/mihirishanika/food_cutting.git"
     },
     {
       id: 2,
       title: "DevOps Project using Jenkins & Docker on Ubuntu",
-      description: "This project is a CI/CD pipeline that automates the process of building, testing and deploying applications...",
+      description: "This project is a CI/CD pipeline that automates the process of building, testing and deploying application using Jenkings, Docker Hub, Docker and Ubuntu...",
       imageUrl: require("../images/cicd.jpeg"),
       link: "https://www.linkedin.com/posts/mihirishanika_devops-cicd-docker-activity-7343904144006479873-LZBf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEdpPCMBSpXMmmxuSHTZXZhhnFEGTWaLurU"
     },
@@ -34,14 +34,14 @@ const Projects = () => {
     {
       id: 5,
       title: "Fully Functional Login and Signup Pages",
-      description: "SecureConnect is a secure and user-friendly authentication system...",
+      description: "This is a secure and user-friendly authentication system using React, Express and Node...",
       imageUrl: require("../images/login_signup.jpg"),
       link: "https://github.com/mihirishanika/SpiritX_CripticHackers_01.git"
     },
     {
       id: 6,
       title: "Embedded Public Transport Payment System",
-      description: "This project is an Embedded System for Public Transportation (Train) Payments...",
+      description: "This project is an Embedded System for Public Transportation (Train) Payments using C, ESP32 and RFID technology...",
       imageUrl: require("../images/rail_go.jpg"),
       link: "https://github.com/oshadapramod/SmartRailwayPayment.git"
     },
@@ -58,7 +58,7 @@ const Projects = () => {
     {
       id: 7,
       title: "Blockchain-Based Electronic Voting System",
-      description: "This project proposes a secure, transparent, and scalable Blockchain-Based Electronic Voting System...",
+      description: "This project proposes a secure, transparent, and scalable Blockchain-Based Electronic Voting System using ZKP, Sharding, SoulBound NFTs and Hybrid Blockchain Architecture...",
       imageUrl: require("../images/e_voting.png"),
       link: "https://github.com/mihirishanika/blockchain-based-E-voting-system.git"
     }
