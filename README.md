@@ -66,7 +66,7 @@ Feel free to connect with me:
 
 📧 Email: mihirishanika57@gmail.com
 
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/mihirishanika/)
+💼 LinkedIn: [linkedin.com/in/mihirishanika](https://www.linkedin.com/in/mihirishanika/)
 
 🐙 GitHub: [@mihirishanika](https://github.com/mihirishanika)
 
