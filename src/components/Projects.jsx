@@ -44,13 +44,6 @@ const Projects = () => {
       description: "This project is an Embedded System for Public Transportation (Train) Payments using C, ESP32 and RFID technology...",
       imageUrl: require("../images/rail_go.jpg"),
       link: "https://github.com/oshadapramod/SmartRailwayPayment.git"
-    },
-    {
-      id: 7,
-      title: "Building an Image Caption Generator using CNN-LSTM from Scratch",
-      description: "This project implements an Image Captioning System using deep learning...",
-      imageUrl: require("../images/deep_learning.jpg"),
-      link: "https://github.com/mihirishanika/Building-an-Image-Caption-Generator-using-CNN-LSTM-from-Scratch-_DeepLearningProject.git"
     }
   ];
 

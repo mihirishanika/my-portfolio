@@ -1,0 +1,154 @@
+.experiences {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 20px 80px;
+  background-color: #f2f3e8;
+}
+
+.section-title {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #25282b;
+  letter-spacing: -0.02em;
+}
+
+.experiences-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+}
+
+.experiences-content {
+  flex: 1.05;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experiences-title {
+  margin: 0 0 18px;
+  font-size: clamp(1.5rem, 1.7vw, 3.5rem);
+  line-height: 1.08;
+  font-weight: 700;
+  color: #25282b;
+}
+
+.experiences-role {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #645f53;
+}
+
+.experiences-text {
+  margin: 0 0 18px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #5f6368;
+  max-width: 62ch;
+}
+
+.experiences-image-container {
+  flex: 0.95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiences-image-frame {
+  position: relative;
+  width: min(100%, 440px);
+
+  /* visible border around the image */
+  border: 6px solid #322b17;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+
+.experiences-image-frame::before {
+  display: none; /* remove the dark pseudo-element so border is clean */
+}
+
+.experiences-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  z-index: 1;
+  box-shadow: 0 8px 20px rgba(37, 40, 43, 0.08); /* softer shadow */
+}
+
+@media (max-width: 992px) {
+  .experiences {
+    padding: 48px 20px 64px;
+  }
+
+  .section-title {
+    margin-bottom: 28px;
+  }
+
+  .section-title h2 {
+    font-size: 40px;
+  }
+
+  .experiences-container {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .experiences-content {
+    width: 100%;
+  }
+
+  .experiences-text {
+    max-width: none;
+  }
+
+  .experiences-image-container {
+    width: 100%;
+  }
+
+  .experiences-image-frame {
+    width: min(100%, 460px);
+  }
+}
+
+@media (max-width: 640px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .experiences-title {
+    font-size: 2rem;
+  }
+
+  .experiences-role,
+  .experiences-text {
+    font-size: 16px;
+  }
+
+  .experiences-image-frame::before {
+    inset: 12px -12px -12px 12px;
+  }
+}

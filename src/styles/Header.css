@@ -28,12 +28,14 @@
     flex-direction: row;
     padding: 0;
     align-items: flex-start;
-    gap: 38px;
+    gap: 28px;
     position: absolute;
-    width: 430px;
+    width: fit-content;
+    max-width: calc(100vw - 240px);
     height: 32px;
     right: 120px;
     top: 14px;
+    white-space: nowrap;
   }
   
   .nav-item {
@@ -72,7 +74,8 @@
     
     nav {
       right: 12px;
-      gap: 20px;
+      gap: 16px;
+      max-width: calc(100vw - 32px);
     }
   }
   
