@@ -1,6 +1,6 @@
-# 💼 My Portfolio – [mihiri.xyz](https://mihiri.xyz)
+# 💼 My Portfolio – [mihirishanika.xyz](https://mihirishanika.xyz)
 
-Welcome to the source code for my personal portfolio website: [https://mihiri.xyz](https://mihiri.xyz)
+Welcome to the source code for my personal portfolio website: [https://mihirishanika.xyz](https://mihirishanika.xyz)
 
 This portfolio is a reflection of who I am as a developer — showcasing my projects, skills, education and how to get in touch with me.
 
@@ -8,7 +8,7 @@ This portfolio is a reflection of who I am as a developer — showcasing my proj
 
 ## 🌐 Live Site
 
-➡️ [https://mihiri.xyz](https://mihiri.xyz)
+➡️ [https://mihirishanika.xyz](https://mihirishanika.xyz)
 
 ---
 
@@ -66,7 +66,7 @@ Feel free to connect with me:
 
 📧 Email: mihirishanika57@gmail.com
 
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/mihirishanika/)
+💼 LinkedIn: [linkedin.com/in/mihirishanika](https://www.linkedin.com/in/mihirishanika/)
 
 🐙 GitHub: [@mihirishanika](https://github.com/mihirishanika)
 
