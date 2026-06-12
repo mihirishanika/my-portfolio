@@ -1,6 +1,6 @@
-# 💼 My Portfolio – [mihiri.xyz](https://mihiri.xyz)
+# 💼 My Portfolio – [mihirishanika.xyz](https://mihirishanika.xyz)
 
-Welcome to the source code for my personal portfolio website: [https://mihiri.xyz](https://mihiri.xyz)
+Welcome to the source code for my personal portfolio website: [https://mihirishanika.xyz](https://mihirishanika.xyz)
 
 This portfolio is a reflection of who I am as a developer — showcasing my projects, skills, education and how to get in touch with me.
 
@@ -8,7 +8,7 @@ This portfolio is a reflection of who I am as a developer — showcasing my proj
 
 ## 🌐 Live Site
 
-➡️ [https://mihiri.xyz](https://mihiri.xyz)
+➡️ [https://mihirishanika.xyz](https://mihirishanika.xyz)
 
 ---
 
